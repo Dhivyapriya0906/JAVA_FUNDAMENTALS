@@ -16,11 +16,11 @@ public class day41 {
                 smax=max;
                 max=arr[i];
 
-            } else if (arr[i]>smax && max!=arr[i] ) {
+            } else if (arr[i]>=smax && max!=arr[i] ) {
                 smax=arr[i];
             }
-            System.out.println("Max:"+max);
-            System.out.println("SMax:"+smax);
+            //System.out.println("Max:"+max);
+            //System.out.println("SMax:"+smax);
 
         }
 
